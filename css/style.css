@@ -23,11 +23,11 @@ img.profile {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-  margin-bottom: 2em;
+  margin-bottom: 1.2em;
 }
 
 .hero {
-	padding-top: 4em;
+	padding-top: 2.2em;
 	background-color: #fafafa;
 }
 
@@ -40,7 +40,6 @@ img.profile {
 }
 
 .content {
-	border-bottom: 1px solid #e4e4e4;
 	padding-bottom: 1em !important;
 }
 
@@ -55,7 +54,7 @@ img.profile {
 
 .social {
 	text-align: center;
-	padding-bottom: 1.7em !important;
+	padding-bottom: 15px !important;
 }
 
 .social ul, li {
@@ -75,7 +74,7 @@ a.socialbutton {
 	text-align: center;
   text-decoration: none;
 	border: none;
-  padding: 0 30px 5px 19px;
+  padding: 0 20px 0 20px;
 }
 
 a:hover.blog {
@@ -116,7 +115,7 @@ a:hover.email {
 	font-size: .8em;
 	text-align: center;
 	color: #A3B1B7;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 /* Media Queries */
@@ -132,7 +131,7 @@ a:hover.email {
 @media (max-width: 640px) and (min-width: 0px) {  
   
   img.profile {
-  	width: 150px !important;
+  	width: 120px !important;
   	-moz-border-radius: 75px;
   	-webkit-border-radius: 75px;
   	-khtml-border-radius: 75px;
@@ -147,7 +146,6 @@ a:hover.email {
   }
 
   .content {
-  	border-bottom: 1px solid #e4e4e4;
   	padding-bottom: 1em !important;
   }
   
