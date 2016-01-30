@@ -1,0 +1,201 @@
+.entypo {
+	font-family: entypo;
+	font-size: 1.4em;
+	font-style: normal;
+}
+
+.entypo-social {
+	font-family: entypo-social;
+	font-size: 3em;
+	font-style: normal;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+img.profile {
+	width: 120px !important;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-khtml-border-radius: 75px;
+	border-radius: 75px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  margin-bottom: 2em;
+}
+
+.hero {
+	padding-top: 4em;
+	background-color: #fafafa;
+}
+
+.content p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #434646;
+  margin-bottom: 1.5em;
+}
+
+.content {
+	border-bottom: 1px solid #e4e4e4;
+	padding-bottom: 1em !important;
+}
+
+.content a {
+	font-weight: 600;
+	color: #8487B8;
+}
+
+.content a:hover {
+  opacity: 0.5;
+}
+
+.social {
+	text-align: center;
+	padding-bottom: 1.7em !important;
+}
+
+.social ul, li {
+	margin: 0;
+	display: inline;
+	list-style-type: none;
+	list-style: none;
+	padding: 0;
+	-webkit-font-smoothing: antialiased; 
+}
+
+a.socialbutton {
+	color: #A3B1B7;
+	font-family: entypo, entypo-social;
+	font-size: 2.5em;
+	vertical-align: middle;
+	text-align: center;
+  text-decoration: none;
+	border: none;
+  padding: 0 30px 5px 19px;
+}
+
+a:hover.blog {
+	padding: 0 30px 5px 19px;
+  color: #9DC777;
+}
+
+a:hover.twitter {
+	padding: 0 30px 5px 18px;
+  color: #55acEE;
+}
+
+a:hover.dribbble {
+	padding: 0 30px 5px 18px;
+  color: #ea4c89;
+}
+
+a:hover.github {
+	padding: 0 32px 5px 18px;
+  color: #8C6DB3;
+}
+
+a:hover.linkedin {
+	padding: 0 30px 5px 17px;
+  color: #0077B5;
+}
+
+a:hover.email {
+	padding: 0 17px 5px 17px;
+  color: #E4A863;
+}
+
+#footer {
+	border-top: 1px solid #e4e4e4;
+}
+
+#footer p {
+	font-size: .8em;
+	text-align: center;
+	color: #A3B1B7;
+	padding-top: 30px;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) and (min-width: 641px) {
+	
+
+
+}
+
+/* Mobile */
+@media (max-width: 640px) and (min-width: 0px) {  
+  
+  img.profile {
+  	width: 150px !important;
+  	-moz-border-radius: 75px;
+  	-webkit-border-radius: 75px;
+  	-khtml-border-radius: 75px;
+  	border-radius: 75px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+  .hero {
+  	padding-top: 1.5em;
+  }
+
+  .content {
+  	border-bottom: 1px solid #e4e4e4;
+  	padding-bottom: 1em !important;
+  }
+  
+  .social {
+  	text-align: center;
+  	padding-bottom: 1.7em !important;
+  }
+  
+  .social ul, li {
+  	margin: 0;
+  	display: inline;
+  	list-style-type: none;
+  	list-style: none;
+  	padding: 0;
+  	-webkit-font-smoothing: antialiased; 
+  }
+  
+  .socialbutton {
+  	font-family: entypo, entypo-social;
+  	font-size: 3em;
+  	-webkit-font-smoothing: antialiased;
+  	vertical-align: middle;
+  	text-align: center;
+  	padding: 5px 17px 5px 17px;
+  	-moz-border-radius: 50px;
+  	-webkit-border-radius: 50px;
+  	-khtml-border-radius: 50px;
+  	border-radius: 50px;
+  	border: none;
+  }
+  
+  .socialbutton a {
+  	-o-transition: all 500ms;
+  	-moz-transition: all 500ms;
+  	-webkit-transition: all 500ms;
+  	transition: all 500ms;
+  }
+  
+  
+  #footer {
+  	border-top: 1px solid #e4e4e4;
+  }
+  
+  #footer p {
+  	font-size: .8em;
+  	text-align: center;
+  	padding-top: 30px;
+  }
+  
+  
+}
