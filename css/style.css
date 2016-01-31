@@ -122,78 +122,83 @@ a:hover.email {
 
 /* Tablet */
 @media (max-width: 768px) and (min-width: 641px) {
-	
-
-
 }
 
 /* Mobile */
 @media (max-width: 640px) and (min-width: 0px) {  
   
-  img.profile {
-  	width: 120px !important;
-  	-moz-border-radius: 75px;
-  	-webkit-border-radius: 75px;
-  	-khtml-border-radius: 75px;
-  	border-radius: 75px;
-  	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  }
+img.profile {
+  width: 100px !important;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -khtml-border-radius: 75px;
+  border-radius: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
   
-  .hero {
-  	padding-top: 1.5em;
-  }
+.hero {
+ 	padding-top: 1.5em;
+ }
 
-  .content {
-  	padding-bottom: 1em !important;
-  }
+.content {
+	padding-bottom: 1em !important;
+  padding-left: 5px;
+}
   
-  .social {
-  	text-align: center;
-  	padding-bottom: 1.7em !important;
-  }
+.social {
+  text-align: center;
+  padding-bottom: .5em !important;
+}
   
-  .social ul, li {
-  	margin: 0;
-  	display: inline;
-  	list-style-type: none;
-  	list-style: none;
-  	padding: 0;
-  	-webkit-font-smoothing: antialiased; 
-  }
+.social ul, li {
+  margin: 0;
+  display: inline;
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  -webkit-font-smoothing: antialiased; 
+}
   
-  .socialbutton {
-  	font-family: entypo, entypo-social;
-  	font-size: 3em;
-  	-webkit-font-smoothing: antialiased;
-  	vertical-align: middle;
-  	text-align: center;
-  	padding: 5px 17px 5px 17px;
-  	-moz-border-radius: 50px;
-  	-webkit-border-radius: 50px;
-  	-khtml-border-radius: 50px;
-  	border-radius: 50px;
-  	border: none;
-  }
+.socialbutton {
+  font-family: entypo, entypo-social;
+  font-size: 3em;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -khtml-border-radius: 50px;
+  border-radius: 50px;
+  border: none;
+}
   
-  .socialbutton a {
-  	-o-transition: all 500ms;
-  	-moz-transition: all 500ms;
-  	-webkit-transition: all 500ms;
-  	transition: all 500ms;
-  }
+a.socialbutton {
+  color: #A3B1B7;
+  font-family: entypo, entypo-social;
+  font-size: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 0 10px 0 10px;
+}
+
+.socialbutton a {
+ 	-o-transition: all 500ms;
+ 	-moz-transition: all 500ms;
+ 	-webkit-transition: all 500ms;
+ 	transition: all 500ms;
+}
   
+#footer {
+ 	border-top: 1px solid #e4e4e4;
+}
   
-  #footer {
-  	border-top: 1px solid #e4e4e4;
-  }
-  
-  #footer p {
-  	font-size: .8em;
-  	text-align: center;
-  	padding-top: 30px;
-  }
-  
-  
+#footer p {
+ 	font-size: .8em;
+ 	text-align: center;
+ 	padding-top: 20px;
 }
